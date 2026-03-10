@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Shubham IT Support Services</title>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<style>
+*{box-sizing:border-box}
+body{margin:0;font-family:'Poppins',sans-serif;background:#f5f7fb;color:#222}
+
+/* HEADER */
+header{background:#0a2540;color:white}
+.topbar{display:flex;justify-content:space-between;align-items:center;max-width:1200px;margin:auto;padding:14px 20px}
+.logo{display:flex;align-items:center;gap:10px}
+.logo-box{width:42px;height:42px;border-radius:8px;background:#1b6cff;display:flex;align-items:center;justify-content:center;font-weight:700}
+.logo h1{font-size:20px;margin:0}
+nav a{color:white;text-decoration:none;margin-left:20px;font-size:14px}
+
+/* HERO */
+.hero{background:linear-gradient(rgba(10,37,64,.8),rgba(10,37,64,.8)),url('https://images.unsplash.com/photo-1519389950473-47ba0277781c') center/cover no-repeat;color:white}
+.hero-inner{max-width:1200px;margin:auto;padding:120px 20px;display:grid;grid-template-columns:1fr 1fr;gap:40px;align-items:center}
+.hero h2{font-size:42px;margin-bottom:15px}
+.hero p{font-size:16px;line-height:1.6}
+.hero .btn{display:inline-block;margin-top:20px;background:#1b6cff;color:white;padding:14px 28px;border-radius:30px;text-decoration:none;font-weight:600}
+.hero img{width:100%;border-radius:12px;box-shadow:0 20px 40px rgba(0,0,0,.3)}
+
+/* SECTION */
+section{max-width:1200px;margin:auto;padding:70px 20px}
+section h2{text-align:center;font-size:32px;margin-bottom:50px}
+
+/* SERVICES */
+.services{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:30px}
+.service{background:white;border-radius:12px;padding:30px;text-align:center;box-shadow:0 10px 25px rgba(0,0,0,.07);transition:.3s}
+.service:hover{transform:translateY(-8px)}
+.service img{width:60px;margin-bottom:15px}
+.service h3{margin:10px 0}
+.service p{font-size:14px;color:#555}
+
+/* ABOUT */
+.about{display:grid;grid-template-columns:1fr 1fr;gap:50px;align-items:center}
+.about img{width:100%;border-radius:12px}
+.about h3{font-size:26px;margin-bottom:10px}
+.about p{line-height:1.7;color:#555}
+
+/* PRODUCTS */
+.products{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:25px}
+.product{background:white;border-radius:10px;padding:20px;text-align:center;box-shadow:0 10px 25px rgba(0,0,0,.07)}
+.product img{width:100%;border-radius:8px;margin-bottom:10px}
+
+/* CONTACT */
+.contact-box{background:#0a2540;color:white;border-radius:14px;padding:50px;text-align:center}
+.contact-box p{margin:8px 0}
+
+/* FOOTER */
+footer{background:#0b0b0b;color:white;text-align:center;padding:30px;margin-top:50px}
+
+/* WHATSAPP */
+.whatsapp{position:fixed;bottom:20px;right:20px;background:#25D366;color:white;padding:14px 20px;border-radius:50px;text-decoration:none;font-weight:600;box-shadow:0 8px 20px rgba(0,0,0,.3)}
+
+@media(max-width:900px){
+.hero-inner{grid-template-columns:1fr}
+.about{grid-template-columns:1fr}
+}
+</style>
+</head>
+<body>
+
+<header>
+<div class="topbar">
+<div class="logo">
+<div class="logo-box">IT</div>
+<h1>Shubham IT Support</h1>
+</div>
+<nav>
+<a href="#services">Services</a>
+<a href="#products">Products</a>
+<a href="#about">About</a>
+<a href="#contact">Contact</a>
+</nav>
+</div>
+</header>
+
+<div class="hero">
+<div class="hero-inner">
+<div>
+<h2>Professional IT Support Services in Mumbai</h2>
+<p>We provide complete IT infrastructure services including networking, firewall security, CCTV installation, laptop repair and office IT support. We also provide new laptops for sale and rental for offices and businesses.</p>
+<a class="btn" href="https://wa.me/917506558340">Get IT Support</a>
+</div>
+<img src="https://images.unsplash.com/photo-1518770660439-4636190af475">
+</div>
+</div>
+
+<section id="services">
+<h2>Our IT Services</h2>
+<div class="services">
+
+<div class="service">
+<img src="https://cdn-icons-png.flaticon.com/512/2885/2885417.png">
+<h3>IT Support</h3>
+<p>Complete IT support for offices including troubleshooting and maintenance.</p>
+</div>
+
+<div class="service">
+<img src="https://cdn-icons-png.flaticon.com/512/4149/4149671.png">
+<h3>Networking Setup</h3>
+<p>LAN network installation, router configuration and WiFi setup.</p>
+</div>
+
+<div class="service">
+<img src="https://cdn-icons-png.flaticon.com/512/2092/2092663.png">
+<h3>Firewall Security</h3>
+<p>Office network firewall configuration and internet security setup.</p>
+</div>
+
+<div class="service">
+<img src="https://cdn-icons-png.flaticon.com/512/2920/2920277.png">
+<h3>CCTV Installation</h3>
+<p>CCTV camera installation with mobile monitoring setup.</p>
+</div>
+
+<div class="service">
+<img src="https://cdn-icons-png.flaticon.com/512/1041/1041883.png">
+<h3>Computer Repair</h3>
+<p>Laptop repair, desktop repair, virus removal and system upgrade.</p>
+</div>
+
+<div class="service">
+<img src="https://cdn-icons-png.flaticon.com/512/679/679922.png">
+<h3>Printer Setup</h3>
+<p>Printer installation, repair and network printer configuration.</p>
+</div>
+
+</div>
+</section>
+
+<section id="about">
+<div class="about">
+<img src="https://images.unsplash.com/photo-1558494949-ef010cbdcc31">
+<div>
+<h3>About Shubham IT Support Services</h3>
+<p>Shubham IT Support Services provides professional IT solutions for offices, shops and businesses in Mumbai. We specialize in networking, firewall security, CCTV installation, computer repair and IT infrastructure setup.</p>
+<p>We also provide new laptops for sale and rental for businesses and offices.</p>
+</div>
+</div>
+</section>
+
+<section id="products">
+<h2>Laptop Sales & Rental</h2>
+<div class="products">
+
+<div class="product">
+<img src="https://images.unsplash.com/photo-1517336714731-489689fd1ca8">
+<h3>Business Laptop</h3>
+<p>New laptops available for sale and rent.</p>
+</div>
+
+<div class="product">
+<img src="https://images.unsplash.com/photo-1593642632823-8f785ba67e45">
+<h3>Desktop Computer</h3>
+<p>Custom desktop computers for office use.</p>
+</div>
+
+<div class="product">
+<img src="https://images.unsplash.com/photo-1587202372775-e229f172b9d7">
+<h3>Computer Hardware</h3>
+<p>SSD, RAM, motherboards and accessories.</p>
+</div>
+
+</div>
+</section>
+
+<section id="contact">
+<div class="contact-box">
+<h2>Contact Us</h2>
+<p><strong>Shubham IT Support Services</strong></p>
+<p>I.C.O Colony, Borivali West, Mumbai</p>
+<p>Email: shubhamit133@gmail.com</p>
+<p>Phone: 7506558340 | 7208002372</p>
+</div>
+</section>
+
+<footer>
+<p>© 2026 Shubham IT Support Services</p>
+<p>Mumbai, Maharashtra</p>
+</footer>
+
+<a class="whatsapp" href="https://wa.me/917506558340">WhatsApp</a>
+
+</body>
+</html>
